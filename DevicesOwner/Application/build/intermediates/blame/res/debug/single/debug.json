@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/build/intermediates/res/merged/debug/drawable-hdpi_tile.9.png.flat",
+        "source": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/res/drawable-hdpi/tile.9.png"
+    },
+    {
+        "merged": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/build/intermediates/res/merged/debug/layout_fragment_instruction.xml.flat",
+        "source": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/res/layout/fragment_instruction.xml"
+    },
+    {
+        "merged": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/build/intermediates/res/merged/debug/layout_fragment_device_owner.xml.flat",
+        "source": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/res/layout/fragment_device_owner.xml"
+    },
+    {
+        "merged": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/build/intermediates/res/merged/debug/xml_device_owner_receiver.xml.flat",
+        "source": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/res/xml/device_owner_receiver.xml"
+    },
+    {
+        "merged": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/res/layout/activity_main.xml"
+    }
+]

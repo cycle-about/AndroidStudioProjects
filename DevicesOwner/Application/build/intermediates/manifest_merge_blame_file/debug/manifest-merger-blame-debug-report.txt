@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2015 The Android Open Source Project
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9     http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.deviceowner"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="29" />
+24-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml
+25
+26    <application
+26-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:24:5-53:19
+27        android:allowBackup="true"
+27-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:25:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] /home/laura/.gradle/caches/transforms-2/files-2.1/34b4ab0d8b65ac74ddd00d45b26dd963/core-1.1.0/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@drawable/ic_launcher"
+30-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:26:9-45
+31        android:label="@string/app_name"
+31-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:27:9-41
+32        android:theme="@style/Theme.DeviceOwner" >
+32-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:28:9-49
+33        <activity
+33-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:31:9-38:20
+34            android:name="com.example.android.deviceowner.MainActivity"
+34-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:32:13-41
+35            android:label="@string/app_name" >
+35-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:33:13-45
+36            <intent-filter>
+36-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:34:13-37:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:35:17-69
+37-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:35:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:36:17-77
+39-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:36:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <receiver
+43-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:40:9-51:20
+44            android:name="com.example.android.deviceowner.DeviceOwnerReceiver"
+44-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:41:13-48
+45            android:description="@string/app_name"
+45-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:42:13-51
+46            android:label="@string/app_name"
+46-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:43:13-45
+47            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+47-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:44:13-70
+48            <meta-data
+48-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:45:13-47:65
+49                android:name="android.app.device_admin"
+49-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:46:17-56
+50                android:resource="@xml/device_owner_receiver" />
+50-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:47:17-62
+51
+52            <intent-filter>
+52-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:48:13-50:29
+53                <action android:name="android.app.action.PROFILE_PROVISIONING_COMPLETE" />
+53-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:49:17-91
+53-->/home/laura/AndroidStudioProjects/DevicesOwner/Application/src/main/AndroidManifest.xml:49:25-88
+54            </intent-filter>
+55        </receiver>
+56    </application>
+57
+58</manifest>
