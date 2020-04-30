@@ -3,35 +3,35 @@
 3    package="com.example.android.nfcprovisioning.test" >
 4
 5    <uses-sdk
-5-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger87135720645138299.xml:5:5-74
+5-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger4161710880069080402.xml:5:5-74
 6        android:minSdkVersion="21"
-6-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger87135720645138299.xml:5:15-41
+6-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger4161710880069080402.xml:5:15-41
 7        android:targetSdkVersion="29" />
-7-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger87135720645138299.xml:5:42-71
+7-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger4161710880069080402.xml:5:42-71
 8
 9    <instrumentation
-9-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger87135720645138299.xml:11:5-15:85
-10        android:name="android.support.test.runner.AndroidJUnitRunner"
-10-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger87135720645138299.xml:11:22-83
+9-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger4161710880069080402.xml:11:5-15:85
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger4161710880069080402.xml:11:22-76
 11        android:functionalTest="false"
-11-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger87135720645138299.xml:14:22-52
+11-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger4161710880069080402.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger87135720645138299.xml:13:22-53
+12-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger4161710880069080402.xml:13:22-53
 13        android:label="Tests for com.example.android.nfcprovisioning"
-13-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger87135720645138299.xml:15:22-83
+13-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger4161710880069080402.xml:15:22-83
 14        android:targetPackage="com.example.android.nfcprovisioning" />
-14-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger87135720645138299.xml:12:22-81
+14-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger4161710880069080402.xml:12:22-81
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.2.0] /home/laura/.gradle/caches/transforms-2/files-2.1/bf043721d158d11fb2c5c807f5e9c83a/jetified-core-1.2.0/AndroidManifest.xml:24:5-72
 16-->[androidx.test:core:1.2.0] /home/laura/.gradle/caches/transforms-2/files-2.1/bf043721d158d11fb2c5c807f5e9c83a/jetified-core-1.2.0/AndroidManifest.xml:24:22-69
 17
 18    <application android:debuggable="true" >
-18-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger87135720645138299.xml:7:5-9:19
-18-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger87135720645138299.xml:7:18-43
+18-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger4161710880069080402.xml:7:5-9:19
+18-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger4161710880069080402.xml:7:18-43
 19        <uses-library android:name="android.test.runner" />
-19-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger87135720645138299.xml:8:9-60
-19-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger87135720645138299.xml:8:23-57
+19-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger4161710880069080402.xml:8:9-60
+19-->/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger4161710880069080402.xml:8:23-57
 20
 21        <activity
 21-->[androidx.test:core:1.2.0] /home/laura/.gradle/caches/transforms-2/files-2.1/bf043721d158d11fb2c5c807f5e9c83a/jetified-core-1.2.0/AndroidManifest.xml:27:9-33:20

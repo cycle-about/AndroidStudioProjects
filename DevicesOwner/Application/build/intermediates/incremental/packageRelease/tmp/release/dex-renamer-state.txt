@@ -1,4 +1,4 @@
-#Thu Apr 30 01:05:53 EDT 2020
+#Thu Apr 30 01:48:05 EDT 2020
 base.0=/home/laura/AndroidStudioProjects/DevicesOwner/Application/build/intermediates/dex/release/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

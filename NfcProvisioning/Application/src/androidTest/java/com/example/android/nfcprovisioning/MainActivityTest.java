@@ -34,10 +34,9 @@ public class MainActivityTest {
 
     @Test
     public void mainActivityTest() {
-
-
-
+        org.junit.Assert.assertNotNull(mActivityTestRule);
     }
+}
 //        ViewInteraction editText = onView(
 //                allOf(withId(R.id.timezone), withText("America/New_York"),
 ////                        childAtPosition(
@@ -87,4 +86,4 @@ public class MainActivityTest {
 //            }
 //        };
 //    }
-}
+//}
