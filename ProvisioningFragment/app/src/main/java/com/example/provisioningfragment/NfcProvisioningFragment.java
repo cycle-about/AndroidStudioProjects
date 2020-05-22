@@ -115,7 +115,7 @@ public class NfcProvisioningFragment {
 /*3*/           return null;    // 3
             }
 /*4*/       ByteArrayOutputStream stream = new ByteArrayOutputStream();     // 4
-                Properties properties = new Properties();    // 4
+            Properties properties = new Properties();    // 4
 /*5*/       for (Map.Entry<String, String> e : mProvisioningValues.entrySet()) {    // 5
 /*6*/           if (!TextUtils.isEmpty(e.getValue())) {    // 6
 /*7*/               String value;
@@ -124,17 +124,15 @@ public class NfcProvisioningFragment {
 /*10*/                  if (!value.startsWith("\"") || !value.endsWith("\"")) {
 /*11*/                      value = "\"" + value + "\"";
                         }
-                } else
-                    if (e.getKey().equals(
-                            DevicePolicyManager.EXTRA_PROVISIONING_DEVICE_ADMIN_PACKAGE_NAME)
-/*12*/                      && Build.VERSION.SDK_INT >= 23) {
+                    }
+/*12*/              if (e.getKey().equals(DevicePolicyManager.EXTRA_PROVISIONING_DEVICE_ADMIN_PACKAGE_NAME) && Build.VERSION.SDK_INT >= 23) {
 /*13*/                  continue;
                     } else {
 /*14*/                  value = e.getValue();
                     }
 /*15*/          properties.put(e.getKey(), value);
+                }
             }
-        }
 /*16*/  if (!properties.contains(DevicePolicyManager.EXTRA_PROVISIONING_LOCAL_TIME)) {
                 properties.put(DevicePolicyManager.EXTRA_PROVISIONING_LOCAL_TIME,
 /*17*/      String.valueOf(System.currentTimeMillis()));
