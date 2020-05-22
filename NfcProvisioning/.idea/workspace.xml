@@ -7,10 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29364cb1-0945-4572-ae6c-703fab89b8e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ProvisioningFragment/app/src/test/java/com/example/provisioningfragment/NfcProvisioningTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DevicesOwner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DevicesOwner/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProvisioningFragment/app/src/test/java/com/example/provisioningfragment/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../ProvisioningFragment/app/src/test/java/com/example/provisioningfragment/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProvisioningFragment/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProvisioningFragment/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProvisioningFragment/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ProvisioningFragment/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProvisioningFragment/app/src/main/java/com/example/provisioningfragment/NdefRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProvisioningFragment/app/src/main/java/com/example/provisioningfragment/NdefRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProvisioningFragment/app/src/main/java/com/example/provisioningfragment/NfcProvisioningFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProvisioningFragment/app/src/main/java/com/example/provisioningfragment/NfcProvisioningFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProvisioningFragment/app/src/test/java/com/example/provisioningfragment/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProvisioningFragment/app/src/test/java/com/example/provisioningfragment/NfcProvisioningTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProvisioningFragment/app/src/test/java/com/example/provisioningfragment/NfcProvisioningTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

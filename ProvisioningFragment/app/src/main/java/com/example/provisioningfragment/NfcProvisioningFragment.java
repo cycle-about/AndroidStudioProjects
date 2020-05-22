@@ -110,48 +110,44 @@ public class NfcProvisioningFragment {
 //    }
 //
 //    @Override
-    public NdefMessage createNdefMessage(NfcEvent event) {
-        if (mProvisioningValues == null) {
-            return null;
-        }
-        ByteArrayOutputStream stream = new ByteArrayOutputStream();
-        Properties properties = new Properties();
-        // Store all the values into the Properties object
-        for (Map.Entry<String, String> e : mProvisioningValues.entrySet()) {
-            if (!TextUtils.isEmpty(e.getValue())) {
-                String value;
-                if (e.getKey().equals(DevicePolicyManager.EXTRA_PROVISIONING_WIFI_SSID)) {
-                    // Make sure to surround SSID with double quotes
-                    value = e.getValue();
-                    if (!value.startsWith("\"") || !value.endsWith("\"")) {
-                        value = "\"" + value + "\"";
-                    }
-                } else //noinspection deprecation
+/*1*/   NdefMessage createNdefMessage(NfcEvent event) {    // 1
+/*2*/       if (mProvisioningValues == null) {    // 2
+/*3*/           return null;    // 3
+            }
+/*4*/       ByteArrayOutputStream stream = new ByteArrayOutputStream();     // 4
+                Properties properties = new Properties();    // 4
+/*5*/       for (Map.Entry<String, String> e : mProvisioningValues.entrySet()) {    // 5
+/*6*/           if (!TextUtils.isEmpty(e.getValue())) {    // 6
+/*7*/               String value;
+/*8*/               if (e.getKey().equals(DevicePolicyManager.EXTRA_PROVISIONING_WIFI_SSID)) {
+/*9*/                   value = e.getValue();
+/*10*/                  if (!value.startsWith("\"") || !value.endsWith("\"")) {
+/*11*/                      value = "\"" + value + "\"";
+                        }
+                } else
                     if (e.getKey().equals(
                             DevicePolicyManager.EXTRA_PROVISIONING_DEVICE_ADMIN_PACKAGE_NAME)
-                            && Build.VERSION.SDK_INT >= 23) {
-                        continue;
+/*12*/                      && Build.VERSION.SDK_INT >= 23) {
+/*13*/                  continue;
                     } else {
-                        value = e.getValue();
+/*14*/                  value = e.getValue();
                     }
-                properties.put(e.getKey(), value);
+/*15*/          properties.put(e.getKey(), value);
             }
         }
-        // Make sure to put local time in the properties. This is necessary on some devices to
-        // reliably download the device owner APK from an HTTPS connection.
-        if (!properties.contains(DevicePolicyManager.EXTRA_PROVISIONING_LOCAL_TIME)) {
-            properties.put(DevicePolicyManager.EXTRA_PROVISIONING_LOCAL_TIME,
-                    String.valueOf(System.currentTimeMillis()));
+/*16*/  if (!properties.contains(DevicePolicyManager.EXTRA_PROVISIONING_LOCAL_TIME)) {
+                properties.put(DevicePolicyManager.EXTRA_PROVISIONING_LOCAL_TIME,
+/*17*/      String.valueOf(System.currentTimeMillis()));
         }
         try {
-            properties.store(stream, "NFC provisioning sample");
+/*18*/      properties.store(stream, "NFC provisioning sample");
             NdefRecord record = NdefRecord.createMime(
-                    DevicePolicyManager.MIME_TYPE_PROVISIONING_NFC, stream.toByteArray());
-            return new NdefMessage(new NdefRecord[]{record});
+/*19*/          DevicePolicyManager.MIME_TYPE_PROVISIONING_NFC, stream.toByteArray());
+/*20*/      return new NdefMessage(new NdefRecord[]{record});
         } catch (IOException e) {
-            e.printStackTrace();
+/*21*/      e.printStackTrace();
         }
-        return null;
+/*22*/      return null;
     }
 
 //    @Override
