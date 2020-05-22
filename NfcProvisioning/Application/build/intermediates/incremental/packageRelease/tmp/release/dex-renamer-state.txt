@@ -1,4 +1,4 @@
-#Thu Apr 30 01:50:45 EDT 2020
+#Fri May 22 00:22:37 EDT 2020
 base.0=/home/laura/AndroidStudioProjects/NfcProvisioning/Application/build/intermediates/dex/release/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
