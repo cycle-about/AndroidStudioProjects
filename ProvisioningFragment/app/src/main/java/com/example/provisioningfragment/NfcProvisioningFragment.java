@@ -110,14 +110,14 @@ public class NfcProvisioningFragment {
 //    }
 //
 //    @Override
-/*1*/   NdefMessage createNdefMessage(NfcEvent event) {    // 1
-/*2*/       if (mProvisioningValues == null) {    // 2
-/*3*/           return null;    // 3
+/*1*/   NdefMessage createNdefMessage(NfcEvent event) {
+/*2*/       if (mProvisioningValues == null) {
+/*3*/           return null;
             }
-/*4*/       ByteArrayOutputStream stream = new ByteArrayOutputStream();     // 4
-            Properties properties = new Properties();    // 4
-/*5*/       for (Map.Entry<String, String> e : mProvisioningValues.entrySet()) {    // 5
-/*6*/           if (!TextUtils.isEmpty(e.getValue())) {    // 6
+/*4*/       ByteArrayOutputStream stream = new ByteArrayOutputStream();
+            Properties properties = new Properties();
+/*5*/       for (Map.Entry<String, String> e : mProvisioningValues.entrySet()) {
+/*6*/           if (!TextUtils.isEmpty(e.getValue())) {
 /*7*/               String value;
 /*8*/               if (e.getKey().equals(DevicePolicyManager.EXTRA_PROVISIONING_WIFI_SSID)) {
 /*9*/                   value = e.getValue();
@@ -133,20 +133,19 @@ public class NfcProvisioningFragment {
 /*15*/          properties.put(e.getKey(), value);
                 }
             }
-/*16*/  if (!properties.contains(DevicePolicyManager.EXTRA_PROVISIONING_LOCAL_TIME)) {
+/*16*/      if (!properties.contains(DevicePolicyManager.EXTRA_PROVISIONING_LOCAL_TIME)) {
                 properties.put(DevicePolicyManager.EXTRA_PROVISIONING_LOCAL_TIME,
-/*17*/      String.valueOf(System.currentTimeMillis()));
-        }
-        try {
-/*18*/      properties.store(stream, "NFC provisioning sample");
-            NdefRecord record = NdefRecord.createMime(
-/*19*/          DevicePolicyManager.MIME_TYPE_PROVISIONING_NFC, stream.toByteArray());
-/*20*/      return new NdefMessage(new NdefRecord[]{record});
-        } catch (IOException e) {
-/*21*/      e.printStackTrace();
-        }
+/*17*/          String.valueOf(System.currentTimeMillis()));
+            }
+            try {
+/*18*/          properties.store(stream, "NFC provisioning sample");
+/*19*/          NdefRecord record = NdefRecord.createMime(DevicePolicyManager.MIME_TYPE_PROVISIONING_NFC, stream.toByteArray());
+/*20*/          return new NdefMessage(new NdefRecord[]{record});
+            } catch (IOException e) {
+/*21*/          e.printStackTrace();
+            }
 /*22*/      return null;
-    }
+        }
 
 //    @Override
 //    public void onTextChanged(int id, String s) {

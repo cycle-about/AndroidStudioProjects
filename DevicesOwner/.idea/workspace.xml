@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b61af77-b2a2-4f5d-bd85-44898f12bb96" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NfcProvisioning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NfcProvisioning/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProvisioningFragment/app/src/main/java/com/example/provisioningfragment/NfcProvisioningFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProvisioningFragment/app/src/main/java/com/example/provisioningfragment/NfcProvisioningFragment.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

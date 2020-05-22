@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="29364cb1-0945-4572-ae6c-703fab89b8e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../DevicesOwner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DevicesOwner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProvisioningFragment/app/src/main/java/com/example/provisioningfragment/NfcProvisioningFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProvisioningFragment/app/src/main/java/com/example/provisioningfragment/NfcProvisioningFragment.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
